@@ -1,3 +1,16 @@
+### Platform Health
+
+#### Docker Hub
+
+[![Docker Automated Build](https://img.shields.io/docker/cloud/automated/openstacktools/openstack-client.svg)](https://hub.docker.com/r/openstacktools/openstack-client/builds/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/openstacktools/openstack-client.svg)](https://hub.docker.com/r/openstacktools/openstack-client/builds/)
+[![Docker Stars](https://img.shields.io/docker/stars/openstacktools/openstack-client.svg)](https://hub.docker.com/r/openstacktools/openstack-client)
+[![Docker Pulls](https://img.shields.io/docker/pulls/openstacktools/openstack-client.svg)](https://hub.docker.com/r/openstacktools/openstack-client/)
+
+#### GitHub
+
+[![GitHub issues open](https://img.shields.io/github/issues/OpenStackTools/OpenStack-Client.svg)](https://github.com/OpenStackTools/OpenStack-Client/issues)
+
 # OpenStack-Client
 
 A lightweight container with the openstack's CLI client (python-openstackclient) installed.
