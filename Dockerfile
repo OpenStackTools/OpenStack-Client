@@ -13,3 +13,5 @@ RUN apt-get update && apt-get -yq install \
     python3-openstackclient \
     python3-pankoclient \
   && rm -rf /var/lib/apt/lists/*
+
+CMD /bin/bash
