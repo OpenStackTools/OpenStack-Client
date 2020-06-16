@@ -1,6 +1,7 @@
 FROM python:3.7-buster
 
 RUN apt-get update && apt-get -yq install \
+    jq \
     python3-aodhclient \
     python3-barbicanclient \
     python3-ceilometerclient \
