@@ -1,6 +1,7 @@
 FROM python:3.7-buster
 
 RUN apt-get update && apt-get -yq install \
+    gettext \
     jq \
     python3-aodhclient \
     python3-barbicanclient \
