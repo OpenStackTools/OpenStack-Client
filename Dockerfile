@@ -14,6 +14,7 @@ RUN apt-get update && apt-get -yq install \
     python3-osc-placement \
     python3-openstackclient \
     python3-pankoclient \
+    zip \
   && rm -rf /var/lib/apt/lists/*
 
 CMD /bin/bash
